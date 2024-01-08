@@ -1,0 +1,12 @@
+.fundo_cabecalho{
+    width: 100%;
+    background-color: var(--cor-primaria);
+    min-height: 20vh;
+}
+
+.titulo_cabecalho{
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    color: var(--cor-branco);
+    font-size: 40px;
+}

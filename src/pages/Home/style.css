@@ -1,0 +1,56 @@
+.gap_tarefas_titulo {
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.btn_cadastrar {
+    width: 20%;
+    background-color: var(--cor-primaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-branco);
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+}
+
+.tarefa_cdastrada{
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+}
+
+.gap {
+    gap: 5%;
+}
+
+.erro_input {
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+}
+
+.width_75 {
+    width: 75%;
+}
+
+.input_tarefa {
+    border-radius: 10px;
+    border-color: var(--cor-terciaria);
+    padding: 10px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    font-size: 16px;
+}
+
+.tarefas_gap {
+    gap: 3vh;
+    display: flex;
+}

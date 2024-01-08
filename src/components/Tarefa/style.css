@@ -1,0 +1,17 @@
+.texto_tarefa{
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    text-wrap: nowrap;
+}
+
+.input_concluido{
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.gap_5{
+    gap: 5%;
+}

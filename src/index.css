@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --cor-primaria: #3E45B0;
+    --cor-secundaria: #FA4343;
+    --cor-terciaria: #3A3A3A;
+    --fonte-primaria: 'Open Sans', sans-serif;
+    --fonte-tamanho: 18px;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.direction_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.direction_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify_end {
+    display: flex;
+    justify-content: end;
+}
+
+.justify_center {
+    display: flex;
+    justify-content: center;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space_around {
+    justify-content: space-around;
+}
